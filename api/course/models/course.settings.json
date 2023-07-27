@@ -28,10 +28,6 @@
       "required": true,
       "default": 0
     },
-    "promotion_price": {
-      "type": "decimal",
-      "default": 0
-    },
     "description": {
       "type": "richtext",
       "required": true
@@ -59,7 +55,7 @@
     },
     "category": {
       "model": "category",
-      "via": "course"
+      "via": "courses"
     },
     "instructor": {
       "via": "courses",

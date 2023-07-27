@@ -19,9 +19,9 @@
       "targetField": "name",
       "required": true
     },
-    "course": {
+    "courses": {
       "via": "category",
-      "model": "course"
+      "collection": "course"
     }
   }
 }
