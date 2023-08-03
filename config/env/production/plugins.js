@@ -10,8 +10,8 @@ module.exports = ({ env }) => ({
       },
     },
     settings: {
-      defaultFrom: "contato@portalescolastart.com",
-      defaultReplyTo: "contato@portalescolastart.com",
+      defaultFrom: "contato@escolastart.plus",
+      defaultReplyTo: "contato@escolastart.plus",
     },
   },
   upload: {

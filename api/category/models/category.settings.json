@@ -22,8 +22,8 @@
       "required": true
     },
     "courses": {
-      "collection": "course",
-      "via": "category"
+      "via": "category",
+      "collection": "course"
     }
   }
 }

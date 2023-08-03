@@ -18,7 +18,7 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     },
     "description": {
@@ -34,10 +34,10 @@
       "required": false,
       "pluginOptions": {}
     },
-    "classtime": {
+    "link": {
       "type": "string"
     },
-    "link": {
+    "classtime": {
       "type": "string"
     }
   }

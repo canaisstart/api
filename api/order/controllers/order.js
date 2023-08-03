@@ -104,7 +104,7 @@ module.exports = {
     await strapi.plugins["email-designer"].services.email.sendTemplatedEmail(
       {
         to: userInfo.email,
-        from: "no-reply@portalescolastart.com",
+        from: "no-reply@escolastart.plus",
       },
       {
         templateId: 1,
