@@ -58,6 +58,10 @@
       "via": "users",
       "plugin": "users-permissions",
       "configurable": false
+    },
+    "completedTasks": {
+      "via": "userId",
+      "collection": "users-lessons"
     }
   }
 }

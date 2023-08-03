@@ -33,6 +33,12 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "classtime": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }

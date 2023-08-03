@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "users_lessons",
+  "info": {
+    "name": "usersLessons"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "userId": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "completedTasks"
+    },
+    "lesson_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

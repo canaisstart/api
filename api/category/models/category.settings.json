@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "categories",
   "info": {
-    "name": "category"
+    "name": "category",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "name": {
@@ -19,9 +21,9 @@
       "targetField": "name",
       "required": true
     },
-    "course": {
-      "via": "category",
-      "model": "course"
+    "courses": {
+      "collection": "course",
+      "via": "category"
     }
   }
 }

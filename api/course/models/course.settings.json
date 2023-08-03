@@ -57,10 +57,6 @@
     "date_course": {
       "type": "date"
     },
-    "category": {
-      "model": "category",
-      "via": "course"
-    },
     "instructor": {
       "via": "courses",
       "model": "instructor"
@@ -74,6 +70,10 @@
       "repeatable": true,
       "required": true,
       "component": "course.curriculum"
+    },
+    "category": {
+      "via": "courses",
+      "model": "category"
     }
   }
 }
