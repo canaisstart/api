@@ -10,7 +10,7 @@ module.exports = {
     console.log(token.id);
     const body = {
       ...ctx.request.body,
-      userId: token.id, // associating the user
+      user: token.id,
     };
 
     const entity = await strapi.services["users-lessons"].create(body);
