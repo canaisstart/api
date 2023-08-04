@@ -11,7 +11,7 @@ module.exports = {
     // simplify cart data
     const cartCoursesIds = await strapi.config.functions.cart.cartCoursesIds(cart);
 
-    // get all courses
+    // pega todos os cursos
     const courses = await strapi.config.functions.cart.cartItems(cartCoursesIds);
 
     if (!courses.length) {
