@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_formations",
+  "info": {
+    "name": "formation",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "courses": {
+      "collection": "course"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

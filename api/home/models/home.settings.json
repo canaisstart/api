@@ -20,6 +20,11 @@
       "type": "component",
       "repeatable": false,
       "component": "page.popular-games"
+    },
+    "formationCourses": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.formation"
     }
   }
 }
