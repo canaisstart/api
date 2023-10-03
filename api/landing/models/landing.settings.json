@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landings",
+  "info": {
+    "name": "Landing",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "course": {
+      "model": "course"
+    },
+    "color": {
+      "type": "string"
+    },
+    "learnItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.learn-item"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "video": {
+      "type": "string"
+    },
+    "forYou": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.for-you"
+    }
+  }
+}

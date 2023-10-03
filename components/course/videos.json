@@ -39,6 +39,10 @@
     },
     "classtime": {
       "type": "string"
+    },
+    "watched_by": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
