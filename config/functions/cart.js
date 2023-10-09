@@ -30,8 +30,20 @@ const total = async (courses) => {
   return Number((amount * 100).toFixed(0));
 };
 
+const formatData = () => {
+  const dataAtual = new Date();
+
+  const dataFutura = new Date(dataAtual);
+  dataFutura.setDate(dataAtual.getDate() + 3);
+
+  const dataVencimento = dataFutura.toISOString();
+
+  return dataVencimento;
+};
+
 module.exports = {
   cartCoursesIds,
   cartItems,
   total,
+  formatData,
 };

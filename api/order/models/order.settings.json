@@ -15,17 +15,17 @@
       "plugin": "users-permissions",
       "model": "user"
     },
-    "payment_intent_id": {
+    "checkout_id": {
       "type": "string"
     },
-    "card_brand": {
-      "type": "string"
-    },
-    "card_last4": {
+    "status": {
       "type": "string"
     },
     "total_in_cents": {
-      "type": "biginteger"
+      "type": "number"
+    },
+    "checkout_url": {
+      "type": "string"
     },
     "courses": {
       "collection": "course"
