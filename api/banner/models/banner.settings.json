@@ -18,7 +18,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "title": {
       "type": "string",
@@ -39,6 +40,11 @@
       "type": "component",
       "repeatable": false,
       "component": "page.ribbon"
+    },
+    "installment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.installment"
     }
   }
 }

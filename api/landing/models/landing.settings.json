@@ -17,16 +17,8 @@
     "description": {
       "type": "text"
     },
-    "course": {
-      "model": "course"
-    },
     "color": {
       "type": "string"
-    },
-    "learnItem": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.learn-item"
     },
     "slug": {
       "type": "string"
@@ -46,10 +38,32 @@
     "video": {
       "type": "string"
     },
+    "name": {
+      "type": "string"
+    },
+    "demo": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "promotional_price": {
+      "type": "decimal"
+    },
     "forYou": {
       "type": "component",
       "repeatable": true,
-      "component": "page.for-you"
+      "component": "landing.for-you"
+    },
+    "learnItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.learn-item"
+    },
+    "installment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.installment"
     }
   }
 }

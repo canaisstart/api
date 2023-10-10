@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_installment_installments",
+  "info": {
+    "name": "installment",
+    "icon": "credit-card"
+  },
+  "options": {},
+  "attributes": {
+    "max_installment": {
+      "type": "integer"
+    },
+    "installment_price": {
+      "type": "decimal"
+    },
+    "fees": {
+      "type": "boolean"
+    }
+  }
+}
